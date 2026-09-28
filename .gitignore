@@ -53,3 +53,8 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Allow .c source files and Makefiles in exercise directories
+!ex*/
+!ex*/*.c
+!ex*/Makefile
